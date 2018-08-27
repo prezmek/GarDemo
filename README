@@ -1,0 +1,4 @@
+
+connectiq
+monkeyc -o myapp.prg -f monkey.jungle -y ..\test\developer_key.der
+monkeydo myapp.prg fenix5x

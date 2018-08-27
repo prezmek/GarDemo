@@ -23,9 +23,6 @@ class GNotesView extends WatchUi.View {
 
     function initialize() {
         WatchUi.View.initialize();
-		
-		mIcon = WatchUi.loadResource(Rez.Drawables.id_apes);
-		
     }
 
     function callback1() {
@@ -69,8 +66,6 @@ class GNotesView extends WatchUi.View {
 		
 		dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
 		dc.drawLine(dc.getWidth() / 2, dc.getHeight() / 2, x + dc.getWidth() / 2, y + dc.getHeight() / 2);
-		
-		dc.drawBitmap(40, 100, mIcon);
     }
 
 }
